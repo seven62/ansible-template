@@ -1,7 +1,7 @@
 # example role file that covers a specific area like security
 
 # this task uses a
-- name: install security-centric packages
+- name: install some packages
   yum:
     name: "{{ item }}"
     update_cache: yes
