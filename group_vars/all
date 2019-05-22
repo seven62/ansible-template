@@ -1,0 +1,3 @@
+deploy_user: deployer
+deploy_group: deployers
+ssh_dir: "/home/user/path/to/keypair"

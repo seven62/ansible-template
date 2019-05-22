@@ -1,2 +1,11 @@
-# ansible-template
-Clone this repo for a quickstart to automating something
+# Ansible Template
+
+Clone this repo for a quick-start to automating that cool project you're working on.  
+
+
+
+
+steps needed:
+
+ssh keygen
+ssh intial login to negate initial login prompt

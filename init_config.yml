@@ -1,0 +1,12 @@
+# setup user and group
+---
+- name: server initial config
+  hosts: init_config
+  user:
+  become: true
+    gather_facts: false
+    roles:
+      - common
+      - nuc-server
+  roles:
+    - init_config

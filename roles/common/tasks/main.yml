@@ -1,0 +1,4 @@
+# this role covers all tasks that apply to all hosts
+- include: example.yml
+
+# the above statement will "include" and apply the tasks inside
