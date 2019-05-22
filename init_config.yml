@@ -4,9 +4,6 @@
   hosts: init_config
   user:
   become: true
-    gather_facts: false
-    roles:
-      - common
-      - nuc-server
+  gather_facts: false
   roles:
     - init_config
